@@ -57,17 +57,17 @@ node default {
   include hub
 
   # languages and runtimes
-  include nodejs::v0_4
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
   include ruby::1_9_3_p448
   
   # servers and services
   include dnsmasq
 
   # IDE tools and editors
+  include macvim
   include textmate::textmate2::release
+  
+  # other useful tools and apps
+  include chrome
 
   # common, useful packages
   package {

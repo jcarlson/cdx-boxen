@@ -26,7 +26,6 @@ github "homebrew",   "1.4.1"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
-github "nodejs",     "3.2.9"
 github "openssl",    "1.0.0"
 github "repository", "2.2.0"
 github "ruby",       "6.3.4"
@@ -34,6 +33,8 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 
+github "chrome",     "1.1.1"
+github "macvim",     "1.0.0"
 github "textmate",   "1.1.0"
 
 # Optional/custom modules. There are tons available at
