@@ -56,14 +56,15 @@ node default {
   include git
   include hub
 
-  # node versions
+  # languages and runtimes
   include nodejs::v0_4
   include nodejs::v0_6
   include nodejs::v0_8
   include nodejs::v0_10
-
-  # default ruby versions
   include ruby::1_9_3_p448
+  
+  # servers and services
+  include dnsmasq
 
   # IDE tools and editors
   include textmate::textmate2::release
