@@ -62,6 +62,7 @@ node default {
   # servers and services
   include dnsmasq
   include mongodb
+  include mysql
 
   # IDE tools and editors
   include macvim
