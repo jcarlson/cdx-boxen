@@ -33,6 +33,8 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 
+# CDX required dependencies
+
 github "chrome",     "1.1.1"
 github "macvim",     "1.0.0"
 github "textmate",   "1.1.0"
