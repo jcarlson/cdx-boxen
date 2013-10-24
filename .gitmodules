@@ -2,3 +2,7 @@
   path = modules/mongodb
   url  = git@github.com:jcarlson/cdx-mongodb.git
 
+[submodule "mysql"]
+	path = modules/mysql
+	url = git@github.com:jcarlson/cdx-mysql.git
+
