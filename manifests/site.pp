@@ -53,10 +53,8 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  # include dnsmasq
   include git
   include hub
-  # include nginx
 
   # node versions
   include nodejs::v0_4
@@ -65,10 +63,10 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  # include ruby::1_8_7
-  # include ruby::1_9_2
   include ruby::1_9_3_p448
-  # include ruby::2_0_0
+
+  # IDE tools and editors
+  include textmate::textmate2::release
 
   # common, useful packages
   package {
