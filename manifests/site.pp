@@ -78,7 +78,7 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+  file { "${boxen::config::srcdir}/cdx-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
